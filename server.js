@@ -10,7 +10,7 @@ server.use(cors());
 server.use(express.json());
 server.use(bodyParser.json());
 server.use(bodyParser.urlencoded({ extended: true }));
-server.use("/api/math", mathRouter);
+server.use("/math", mathRouter);
 
 
 module.exports = server;
