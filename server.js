@@ -3,6 +3,7 @@ const cors = require("cors");
 const helmet = require("helmet");
 const bodyParser = require("body-parser");
 const server = express();
+const mathRouter = require("./router.js");
 
 server.use(helmet());
 server.use(cors());
