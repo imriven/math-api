@@ -19,3 +19,4 @@ router.get("add/{num1}/{num2}", (req, res) => {
     );
 });
 
+module.exports = router;
